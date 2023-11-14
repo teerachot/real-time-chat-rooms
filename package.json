@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "server": "nodemon server.js --exec babel-node",
-    "client":"npm start --prefix client",
+    "client":"npm start --prefix clients",
     "build": "webpack --mode=production",
     "start": "yarn run build && node dist/server.js",
     "dev": "concurrently \"yarn run client\" \"yarn run server\" "
